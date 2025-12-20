@@ -29,7 +29,7 @@
 
   <groupId>io.github.otabekhoshimxon</groupId>
   <artifactId>base-lib</artifactId>
-  <version>1.2.9</version>
+  <version>1.3.0</version>
   <packaging>jar</packaging>
 
 
@@ -46,21 +46,19 @@
   </properties>
 
   <dependencies>
-    <!-- Agar kutubxona Spring bilan bog'liq bo'lsa, consumerlarda Spring Boot parent boshqarsa
-         ushbu dependency 'provided' scope bo'lishi ma'qul. Aks holda o'chirib tashlang. -->
-    <dependency>
+  <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
       <version>3.1.6</version> <!-- agar sizning servislaringizda boshqa versiya bo'lsa, shu yerga moslang -->
       <scope>provided</scope>
     </dependency>
 
-
     <dependency>
       <groupId>com.github.pengrad</groupId>
       <artifactId>java-telegram-bot-api</artifactId>
-      <version>7.4.0</version>
+      <version>7.0.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
 
     <dependency>
       <groupId>jakarta.servlet</groupId>

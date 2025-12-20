@@ -5,7 +5,7 @@ import ch.qos.logback.classic.spi.IThrowableProxy;
 import ch.qos.logback.classic.spi.StackTraceElementProxy;
 import ch.qos.logback.core.AppenderBase;
 import lombok.Setter;
-import travel.letstrip.config.TelegramClient;
+import travel.letstrip.clients.TelegramClient;
 
 import java.time.Instant;
 import java.util.Set;

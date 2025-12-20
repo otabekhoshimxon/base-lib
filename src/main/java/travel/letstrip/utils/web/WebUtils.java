@@ -1,4 +1,4 @@
-package travel.letstrip.utils;
+package travel.letstrip.utils.web;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Component;

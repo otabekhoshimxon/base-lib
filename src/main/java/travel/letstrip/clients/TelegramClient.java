@@ -1,4 +1,4 @@
-package travel.letstrip.config;
+package travel.letstrip.clients;
 
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.model.request.ParseMode;
